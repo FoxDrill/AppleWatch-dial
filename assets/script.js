@@ -11,7 +11,7 @@ $(document).ready(function(){
 	let secondConversion = (360 / 360 * second) * 6;
 	let i = 0;
 
-	const d = ['Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab', 'Dom'];
+	const d = ['Dom', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab'];
 	const m = ['gen', 'feb', 'mar', 'apr', 'mag', 'giu', 'lug', 'ago', 'set', 'ott', 'nov', 'dic'];
 
 	if(day < 10){
